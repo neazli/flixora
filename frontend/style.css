@@ -42,11 +42,11 @@ h1{
     background:#1a1c26;
     border-radius: 8px;
     overflow: hidden;
-    cursor: pointer; /*fare ile üzerine gelindiğinde tıklanabilir old. gösterir*/
+    cursor: pointer; 
 
 
 }
-.card img{/*card-img ile card img farklı şeyler*/
+.card img{
     width: 100%;
     aspect-ratio:2/3;
     object-fit: cover;
