@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #14151c;
+    color: #eceaf4;
+    font-family: sans-serif;
+
+}
+header{
+    display: flex;
+    gap: 16px;
+    padding: 24px;
+    align-items: center;
+
+}
+h1{
+    color: #e8b35a;
+    font-size: 28px;
+
+}
+#searchInput{
+    padding: 10px;
+    border: 1px solid #121212;
+    border-radius: 6px;
+    background: #1E1E1E;
+    color:aquamarine;
+
+}
+#movieGrid{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(160px, 1fr));
+    gap: 16px;
+    padding: 24px;
+
+}
+.card{
+    background:#1a1c26;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer; /*fare ile üzerine gelindiğinde tıklanabilir old. gösterir*/
+
+
+}
+.card img{/*card-img ile card img farklı şeyler*/
+    width: 100%;
+    aspect-ratio:2/3;
+    object-fit: cover;
+    display: block;
+
+
+}
+
+.card-title{
+    padding: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
