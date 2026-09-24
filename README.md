@@ -1,4 +1,6 @@
-# Flixora
+<img width="2939" height="1602" alt="flixora" src="https://github.com/user-attachments/assets/c700bffa-ad1b-4032-9da6-bbed64f04aa2" />
+
+## Flixora
 
 A movie/TV discovery web app built with a PHP backend and TMDb API integration, featuring a content-based recommendation engine based on genre and keyword similarity.
 
